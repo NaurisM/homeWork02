@@ -39,7 +39,7 @@ body {
   max-width: 1160px;
   min-width: 300px;
   margin: 0 auto;
-  padding: 0 15px;
+  background: LightSkyBlue;
 }
 
 /* --------- header ---------- */
@@ -47,7 +47,6 @@ body {
 .item1 {
   display: flex;
   justify-content: center;
-  background: LightSkyBlue;
   grid-area: brand;
 }
  
@@ -56,7 +55,6 @@ body {
   justify-content: start;
   padding-left: 10px;
   align-items: center;
-  background-color: LightSkyBlue;
   grid-area: nav;
   
 }
@@ -65,7 +63,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: LightSkyBlue;
   grid-area: tools;
 }
 
@@ -148,7 +145,6 @@ form:hover {
 /* --------- section ---------- */
  
 .item4 {
-  background: LightSkyBlue;
   grid-area: feature;
   display: none;
   padding: 15px;
@@ -161,12 +157,10 @@ form:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: LightSkyBlue;
   grid-area: action;
 }
  
 .item6 {
-  background: LightSkyBlue;
   grid-area: ad1;
   display: none;
 }
@@ -199,7 +193,6 @@ h1 {
 /* --------- main ---------- */
 
 .item7 {
-  background: LightSkyBlue;
   grid-area: article;
   padding: 15px;
   color: #28303d;
@@ -211,12 +204,10 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: LightSkyBlue;
   grid-area: ad2;
 }
  
 .item9 {
-  background: LightSkyBlue;
   grid-area: listing;
   padding: 15px;
   color: #28303d;
@@ -225,7 +216,6 @@ h1 {
 }
  
 .item10 {
-  background: LightSkyBlue;
   grid-area: sidebar;
   display: none;
 }
