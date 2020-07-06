@@ -33,6 +33,7 @@
 body {
   font-family: 'Yanone Kaffeesatz';
   color: #28303d;
+  background: LightSkyBlue;
 }
 
 .wrapper {
@@ -177,12 +178,13 @@ form:hover {
 
 .btn {
   padding: 15px 30px;
-  text-transform: uppercase;
   font-weight: 700;
   font-size: 24px;
   color: #28303d;
   background: #4c96d7;
+  border-radius: 5px;
   cursor: pointer;
+  box-shadow: 2px 2px 6px 2px #28303d;
 }
 
 h1 {
