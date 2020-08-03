@@ -181,7 +181,9 @@ form:hover {
   font-size: 24px;
   color: #28303d;
   background: #4c96d7;
+  border-radius: 5px;
   cursor: pointer;
+  box-shadow: 2px 2px 6px 2px #28303d;
 }
 
 h1 {
